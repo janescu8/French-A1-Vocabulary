@@ -7,9 +7,10 @@ import time
 from pydub import AudioSegment
 
 # 匯入所有書籍的單字庫
-
+from dictation_practice_8 import word_data as dictation_practice_8
 # 書籍選擇
 book_options = {
+    "Dictation Practice #8": dictation_practice_8,
 }
 
 st.title("📚 法文單字測試遊戲")
